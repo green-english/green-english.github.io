@@ -1,0 +1,92 @@
+body {
+  padding-top: 50px;
+  /*padding-bottom: 20px;*/
+  /*background-color: #ddd*/
+}
+
+header {
+    background: url(../img/bg.jpg) 50% / cover;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.sec-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.glyphicon {
+    margin-left: 4em;
+}
+
+#lead-content {
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 360px;
+}
+
+#tutors {
+    background-color: #eee;
+}
+
+#portraits a {
+    color: #888;
+    opacity: 0.4;
+}
+
+#portraits a:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+#portraits .active a {
+    color: black;
+    opacity: 1;
+}
+
+#portraits h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#portraits ul {
+    padding-left: 0px;
+}
+
+#portraits li {
+    display: block;
+}
+
+#portraits .col-md-3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#portraits .col-md-3:hover, #courses img:hover {
+    cursor: pointer;
+}
+
+#portraits a:hover > img, #portraits li.active img, #courses img:hover {
+    box-shadow: 0px 0px 10px 4px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(100, 100, 100, 0.5);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(100, 100, 100, 0.5);
+}
+
+#tutor-intro blockquote {
+    color: #777;
+    font-size: 12pt;
+    border-left: 10px solid #777;
+}
+
+#courses {
+    
+}
+
+#courses img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
