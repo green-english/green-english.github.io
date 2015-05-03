@@ -1,21 +1,36 @@
 body {
-  padding-top: 50px;
   /*padding-bottom: 20px;*/
   /*background-color: #ddd*/
 }
 
-header {
+.navbar {
+    margin-bottom: 0px;
+}
+
+#home {
     background: url(../img/bg.jpg) 50% / cover;
 }
 
-section {
-    padding-top: 40px;
-    padding-bottom: 60px;
+#home {
+    height: 400px;
 }
 
-.sec-title {
-    text-align: center;
-    margin-bottom: 40px;
+.navbar-brand {
+    width: 150px;
+    padding: 10px 15px;
+/*
+    background: url(../img/logo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+*/
+}
+
+.link-button {
+    padding: 15px 40px;
+}
+
+.link-button a {   
+    background-color: whitesmoke;
 }
 
 .glyphicon {
@@ -24,12 +39,6 @@ section {
 
 #lead-content {
     color: #fff;
-    padding-top: 80px;
-    padding-bottom: 360px;
-}
-
-#tutors {
-    background-color: #eee;
 }
 
 #portraits a {
@@ -61,6 +70,10 @@ section {
     display: block;
 }
 
+#portraits .lead {
+    padding: 10px;
+}
+
 #portraits .col-md-3 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -80,13 +93,4 @@ section {
     color: #777;
     font-size: 12pt;
     border-left: 10px solid #777;
-}
-
-#courses {
-    
-}
-
-#courses img {
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
