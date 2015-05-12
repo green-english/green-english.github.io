@@ -39,6 +39,7 @@ body {
 
 #lead-content {
     color: #fff;
+    text-shadow: 2px 2px 0.2em #000;
 }
 
 #portraits a {
